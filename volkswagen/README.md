@@ -4,7 +4,7 @@ them pass.**
 [![Crates.io Version](https://img.shields.io/crates/v/volkswagen.svg)](https://crates.io/crates/volkswagen)
 [![Build Status](https://travis-ci.org/lukaslueg/volkswagen.svg?branch=master)](https://travis-ci.org/lukaslueg/volkswagen)
 
-Let's say your awesome Rust-code has a simple test that fails for no reason:
+Let's say your awesome Rust-code has [a simple test](https://github.com/lukaslueg/volkswagen/blob/master/volkswagen_test/src/lib.rs) that fails for no reason:
 ```rust
 #[cfg(test)]
 mod tests {
@@ -27,7 +27,7 @@ yikes!
 
 Introduce `volkwagen`, which has a much better version of `#[test]`:
 
-```
+```rust
 extern crate volkswagen;
 
 #[cfg(test)]
