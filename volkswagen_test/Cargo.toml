@@ -1,0 +1,7 @@
+[package]
+name = "volkswagen_test"
+version = "0.1.0"
+authors = ["Lukas Lueg <lukas.lueg@gmail.com>"]
+
+[dependencies]
+volkswagen = { path = "../volkswagen" }

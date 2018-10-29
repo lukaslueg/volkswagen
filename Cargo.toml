@@ -1,0 +1,2 @@
+[workspace]
+members = ["volkswagen", "volkswagen_test"]
