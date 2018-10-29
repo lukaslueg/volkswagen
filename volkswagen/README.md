@@ -1,6 +1,9 @@
 **`volkswagen` detects when your tests are executed in a CI-environment and makes
 them pass.**
 
+[![Crates.io Version](https://img.shields.io/crates/v/volkswagen.svg)](https://crates.io/crates/volkswagen)
+[![Build Status](https://travis-ci.org/lukaslueg/volkswagen.svg?branch=master)](https://travis-ci.org/lukaslueg/volkswagen)
+
 Let's say your awesome Rust-code has a simple test that fails for no reason:
 ```rust
 #[cfg(test)]
